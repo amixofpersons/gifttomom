@@ -1,0 +1,46 @@
+html{
+	background-image: url('forest.gif');
+  background-size: cover;
+  height: 100%;
+}
+
+
+div.center{
+    width: 35%;
+    height: 150px;
+
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  text-align: center;
+  opacity: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+
+    -moz-border-radius: 50% / 250px;
+    -webkit-border-radius: 40% / 250px;
+    border-radius: 50% / 250px;
+
+    z-index: 100;
+}
+
+img{
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+
+h1{
+  opacity: 1;
+	font-family: "Lucida Grande", sans-serif;
+	color: black;
+	font-size: 23px;
+}
+
+#music{
+  display: none;
+}
